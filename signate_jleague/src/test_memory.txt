@@ -1,0 +1,775 @@
+test : 2021-05-31 12:31:25.742573
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ÔøΩnÔøΩÔøΩÔøΩÔøΩ', 'weather_ÔøΩÔøΩ', 'weather_ÔøΩJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance'],
+      dtype='object')
+test : 2021-05-31 12:31:42.716028
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ÔøΩnÔøΩÔøΩÔøΩÔøΩ', 'weather_ÔøΩÔøΩ', 'weather_ÔøΩJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.75, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 150}
+rmse : 2882.2265320680835
+
+test : 2021-05-31 13:54:52.945236
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.75, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 150}
+rmse : 2882.2265320680835
+
+test : 2021-05-31 17:15:39.579241
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.75, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 150}
+rmse : 2882.2265320680835
+
+test : 2021-05-31 17:16:19.565393
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.75, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 150}
+rmse : 2877.225844211777
+
+test : 2021-06-01 15:16:05.665049
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.75, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 150}
+rmse : 2882.2265320680835
+
+test absorp : 2021-06-01 15:43:24.310377
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-01 15:48:36.091997
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-01 15:49:15.731535
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-01 15:49:50.633748
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-01 15:52:27.155809
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-01 15:52:36.778824
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-01 15:56:16.187459
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+rmse : 13862.31365568498
+
+test absorp : 2021-06-01 15:59:14.775029
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-01 16:17:33.950342
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-01 16:19:33.529288
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-01 16:19:53.620972
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-01 16:20:41.253844
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test : 2021-06-01 16:34:21.230507
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.75, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 150}
+rmse : 2882.2265320680835
+
+test : 2021-06-01 16:35:08.663349
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.75, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 150}
+rmse : 2882.2265320680835
+
+test : 2021-06-01 16:38:51.205755
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.75, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 150}
+rmse : 2882.2265320680835
+
+test : 2021-06-01 16:46:26.968271
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.75, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 150}
+rmse : 2877.225844211777
+
+test : 2021-06-01 16:51:50.401724
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2849.659804650209
+
+test : 2021-06-01 17:52:54.978750
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2847.143500603131
+
+test : 2021-06-01 17:53:48.116799
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2883.3263588041345
+
+test : 2021-06-01 17:54:10.895286
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2847.143500603131
+
+test : 2021-06-01 17:54:58.186603
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2847.143500603131
+
+test : 2021-06-01 17:55:25.125116
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2849.659804650209
+
+test : 2021-06-01 18:04:47.376271
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2849.659804650209
+
+test : 2021-06-02 09:35:21.458090
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2849.659804650209
+
+test : 2021-06-02 09:36:07.976848
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2847.3348591061344
+
+test : 2021-06-02 09:43:37.362387
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2833.726754714319
+
+test : 2021-06-02 09:43:47.692421
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2857.0281659788943
+
+test : 2021-06-02 09:43:59.917546
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.01, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2935.5963689541995
+
+test : 2021-06-02 09:44:09.732005
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2833.726754714319
+
+test : 2021-06-02 09:46:13.682171
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance',
+       'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2938.0163990555093
+
+test : 2021-06-02 09:49:42.057252
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 3, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2948.8478201662956
+
+test : 2021-06-02 09:51:42.814287
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2833.726754714319
+
+test : 2021-06-02 09:52:27.346561
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2872.7986106474855
+
+test : 2021-06-02 09:54:19.224006
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'lat', 'lng', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2868.3199118126995
+
+test : 2021-06-02 09:59:06.723412
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'lat', 'lng', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 600, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.75, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2851.3917008872036
+
+test : 2021-06-02 10:47:07.870208
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'lat', 'lng', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 600, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.75, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2851.3917008872036
+
+test : 2021-06-02 11:34:14.274959
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'weather_ê·', 'capa',
+       'h_lat', 'h_lng', 'station', 'age', 'child', 'population', 'area',
+       'absorp', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2932.341199425071
+
+test : 2021-06-02 11:34:50.598989
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2833.726754714319
+
+test : 2021-06-02 12:01:21.853345
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2833.726754714319
+
+test : 2021-06-02 12:21:00.851325
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2833.726754714319
+
+test : 2021-06-02 12:23:33.117990
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2833.726754714319
+
+test : 2021-06-02 14:05:16.713698
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.85, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2920.852803329861
+
+test : 2021-06-02 14:12:09.561128
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2833.726754714319
+
+test : 2021-06-02 14:16:34.046250
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance', 'jap_cnt',
+       'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.75, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2904.136590813268
+
+test : 2021-06-02 14:17:00.277334
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance', 'jap_cnt',
+       'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2874.708936927979
+
+test : 2021-06-02 14:19:26.861341
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance', 'jap_cnt',
+       'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 600, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.9, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2826.5730785819724
+
+test : 2021-06-02 14:25:07.539660
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance', 'jap_cnt',
+       'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 600, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.9, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2820.1567880033153
+
+test : 2021-06-02 14:25:47.540603
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance', 'jap_cnt',
+       'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 600, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.9, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2826.5730785819724
+
+test : 2021-06-02 14:26:07.133639
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance', 'jap_cnt',
+       'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 600, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.9, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2820.1567880033153
+
+test : 2021-06-02 14:28:51.706862
+columns : Index(['stage', 'match', 'week_day', 'month', 'tv_cnt', 'NHK', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age', 'child',
+       'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance', 'jap_cnt',
+       'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2959.391550678026
+
+test : 2021-06-02 14:29:36.875197
+columns : Index(['stage', 'match', 'week_day', 'month', 'tv_cnt', 'NHK', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age', 'child',
+       'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance', 'jap_cnt',
+       'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2959.391550678026
+
+test : 2021-06-02 14:29:56.487355
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance', 'jap_cnt',
+       'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2818.6488958093446
+
+test : 2021-06-02 14:30:18.798023
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng',
+       'station', 'age', 'child', 'population', 'area', 'absorp', 'a_lat',
+       'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'jap_cnt', 'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2857.138702400188
+
+test : 2021-06-02 14:31:20.360329
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance', 'jap_cnt',
+       'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2818.6488958093446
+
+test : 2021-06-02 14:52:49.424425
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance',
+       'week_absorb', 'jap_cnt', 'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2872.2229831456298
+
+test : 2021-06-02 15:04:40.887320
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance',
+       'week_absorb', 'jap_cnt', 'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2840.496635721698
+
+test : 2021-06-02 15:06:56.367751
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance',
+       'week_absorb', 'jap_cnt', 'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.65, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2814.551299118809
+
+test : 2021-06-02 15:46:17.053658
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance',
+       'week_absorb', 'jap_cnt', 'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.65, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2814.551299118809
+
+test : 2021-06-02 16:25:57.363450
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'temperature', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat',
+       'h_lng', 'station', 'age', 'child', 'population', 'area', 'absorp',
+       'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all',
+       'away_all', 'distance', 'week_absorb', 'jap_cnt', 'home_cum',
+       'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.65, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2795.3797700942428
+
+test : 2021-06-02 16:38:14.415897
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'week_absorb', 'jap_cnt', 'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.65, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2841.339482069016
+
+test : 2021-06-02 16:39:40.127880
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'week_absorb', 'jap_cnt', 'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2813.149004562616
+
+test : 2021-06-02 16:41:58.709027
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'ínï˚ã«', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station',
+       'age', 'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng',
+       'discomfort', 'ranking_x', 'ranking_y', 'home_all', 'away_all',
+       'distance', 'week_absorb', 'jap_cnt', 'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2813.149004562616
+
+test : 2021-06-02 16:44:51.636964
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance',
+       'week_absorb', 'jap_cnt', 'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2838.9432165262674
+
+test : 2021-06-02 16:45:03.452592
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'weather_ê∞', 'weather_âJ', 'capa', 'h_lat', 'h_lng', 'station', 'age',
+       'child', 'population', 'area', 'absorp', 'a_lat', 'a_lng', 'discomfort',
+       'ranking_x', 'ranking_y', 'home_all', 'away_all', 'distance',
+       'week_absorb', 'jap_cnt', 'home_cum', 'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.65, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2814.551299118809
+
+test : 2021-06-02 16:46:09.087179
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'temperature', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat',
+       'h_lng', 'station', 'age', 'child', 'population', 'area', 'absorp',
+       'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all',
+       'away_all', 'distance', 'week_absorb', 'jap_cnt', 'home_cum',
+       'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.02, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.65, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2811.2119823370126
+
+test : 2021-06-02 16:46:50.959083
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'temperature', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat',
+       'h_lng', 'station', 'age', 'child', 'population', 'area', 'absorp',
+       'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all',
+       'away_all', 'distance', 'week_absorb', 'jap_cnt', 'home_cum',
+       'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.65, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+rmse : 2795.3797700942428
+
+test absorp : 2021-06-02 16:51:12.008138
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-02 16:51:39.268535
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+rmse : 2919.4398715656616
+
+test : 2021-06-02 17:02:26.606768
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'temperature', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat',
+       'h_lng', 'station', 'age', 'child', 'population', 'area', 'absorp',
+       'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all',
+       'away_all', 'distance', 'week_absorb', 'jap_cnt', 'home_cum',
+       'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.65, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 1, 'seed': 17, 'reg_alpha': 140}
+test absorp : 2021-06-03 10:13:12.352287
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+rmse : 2882.953044487727
+
+test absorp : 2021-06-03 10:15:35.381544
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-03 10:16:11.558548
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+test absorp : 2021-06-03 10:16:23.194565
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : 97
+rmse : 2865.62199679737
+
+test absorp : 2021-06-03 11:37:29.117566
+columns : Index(['match', 'home', 'away', 'week_day', 'month', 'day', 'tv_cnt', 'NHK',
+       'home_score', 'away_score', 'temperature', 'humidity', 'weather_ê∞',
+       'weather_âJ', 'capa', 'h_lat', 'h_lng', 'age', 'child', 'population',
+       'area', 'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y',
+       'home_all', 'away_all', 'distance', 'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.4, 'max_depth': 3, 'min_child_weight': 3, 'gamma': 0.0, 'subsample': 0.7, 'colsample_bytree': 0.7, 'objective': 'reg:squarederror'}
+border : 97
+rmse : 2865.62199679737
+
+test : 2021-06-03 13:59:00.053377
+columns : Index(['stage', 'match', 'home', 'away', 'stadium', 'week_day', 'tv_cnt',
+       'NHK', 'temperature', 'humidity', 'referee', 'weather_ê∞', 'weather_âJ',
+       'address', 'capa', 'h_lat', 'h_lng', 'station', 'population', 'area',
+       'absorp', 'lat', 'lng', 'a_lat', 'a_lng', 'discomfort', 'ranking_x',
+       'ranking_y', 'home_all', 'away_all', 'distance', 'week_absorb',
+       'jap_cnt', 'home_cum', 'away_cum'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.76, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 2, 'seed': 17, 'reg_alpha': 140}
+test : 2021-06-03 13:59:07.590193
+columns : Index(['stage', 'match', 'home', 'away', 'week_day', 'month', 'tv_cnt', 'NHK',
+       'temperature', 'humidity', 'weather_ê∞', 'weather_âJ', 'capa', 'h_lat',
+       'h_lng', 'station', 'age', 'child', 'population', 'area', 'absorp',
+       'a_lat', 'a_lng', 'discomfort', 'ranking_x', 'ranking_y', 'home_all',
+       'away_all', 'distance', 'week_absorb', 'jap_cnt', 'home_cum',
+       'away_cum', 'team'],
+      dtype='object')
+params : {'learning_rate': 0.03, 'n_estimators': 500, 'max_depth': 5, 'min_child_weight': 1, 'gamma': 0.0, 'subsample': 0.76, 'colsample_bytree': 0.65, 'objective': 'reg:squarederror', 'nthread': 4, 'scale_pos_weight': 2, 'seed': 17, 'reg_alpha': 140}
+rmse : 2790.455897652027
+
